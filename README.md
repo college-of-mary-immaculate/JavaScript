@@ -34,3 +34,4 @@ node ./2\ -\ Console.js
 4. [Variables](./4%20-%20Variables.js)
 5. [Data Types](./5%20-%20Data%20Types.js)
 6. [Operators](./6%20-%20Operators.js)
+7. [Functions](./7%20-%20Functions.js)
