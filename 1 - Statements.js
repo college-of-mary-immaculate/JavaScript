@@ -26,8 +26,8 @@ var message = "Hello CMIan!"; var x, y = 20;
 
 /*** Line-breaks ***/
 
-// JavaScript Statements could also be separated by line-breaks 
+// JavaScript Statements could also be separated by line-breaks
 var message =
-    "Hello CMIan!"
+  "Hello CMIan!"
 var x,
-    y = 20
+  y = 20
