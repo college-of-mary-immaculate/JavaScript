@@ -28,6 +28,6 @@ node ./2\ -\ Console.js
 
 ## Table of Contents
 
-1. [Statements](./1+-+Statements.js)
-2. [Console](./2+-+Console.js)
-3. [Style Guide](./3+-+Style+Guide.js)
+1. [Statements](./1%20-%20Statements.js)
+2. [Console](./2%20-%20Console.js)
+3. [Style Guide](./3%20-%20Style%20Guide.js)
