@@ -33,3 +33,4 @@ node ./2\ -\ Console.js
 3. [Style Guide](./3%20-%20Style%20Guide.js)
 4. [Variables](./4%20-%20Variables.js)
 5. [Data Types](./5%20-%20Data%20Types.js)
+6. [Operators](./6%20-%20Operators.js)
