@@ -1,7 +1,7 @@
 # Learn JavaScript by Examples
 
 ## What is JavaScript?
-JavaScript (JS) is a programming language that is based to the [ECMAScript](https://www.ecma-international.org/) specification. 
+JavaScript (JS) is a programming language that is based to the [ECMAScript](https://www.ecma-international.org/) specification.
 
 JavaScript is also one of the core technologies of the World Wide Web. JavaScripts are downloaded and executed by the Client (Browser). JavaScript is high-level, often just-in-time compiled, and multi-paradigm.
 
@@ -31,3 +31,5 @@ node ./2\ -\ Console.js
 1. [Statements](./1%20-%20Statements.js)
 2. [Console](./2%20-%20Console.js)
 3. [Style Guide](./3%20-%20Style%20Guide.js)
+4. [Variables](./4%20-%20Variables.js)
+5. [Data Types](./5%20-%20Data%20Types.js)
