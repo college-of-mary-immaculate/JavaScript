@@ -26,3 +26,16 @@ async function testAsync() {
 
 testAsync().then(val => console.log(val))
 
+
+// Using async and Promise together
+async function boo(val = null) {
+  return new Promise((res, rej) => {
+    if (val == null) rej("Error!")
+
+    res("Boo!")
+  })
+}
+
+boo()
+  .then(val => console.log(val))
+  .catch(err => console.log(`Received: ${err}`))
