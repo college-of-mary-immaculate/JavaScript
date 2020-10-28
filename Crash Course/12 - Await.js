@@ -13,7 +13,7 @@ Wait for Promises (Could only be used inside an async function)
 // Using async and Promise together
 async function boo(val = null) {
   return new Promise((res, rej) => {
-    if (val == null) rej("Error!")
+    if (val === null) rej("Error!")
 
     res("Boo!")
   })
