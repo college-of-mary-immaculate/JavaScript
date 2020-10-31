@@ -11,22 +11,15 @@ Fetch API is also similar to XMLHttpRequest. Fetch is based from Promise.
 
 */
 
-const WeatherAPI = 'https://api.openweathermap.org/data/2.5/weather?q=Manila&units=metric&appid=843e77580f94a536404d4567381b1502';
-
-fetch(WeatherAPI)
+fetch("https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty")
   .then(res => res.json())
-  .then(data => {
-    console.log(data)
-  })
-  .catch(err => {
-    console.error(err)
-  });
+  .then(data => console.log(data));
 
 // Using async and await
 
 (async () => {
   try {
-    const apiResponse = await fetch(WeatherAPI);
+    const apiResponse = await fetch("https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty");
     const data = await apiResponse.json();
     console.log(data);
   } catch (ex) {
