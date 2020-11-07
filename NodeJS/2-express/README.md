@@ -19,4 +19,6 @@ Using this example code, create a simple website consists of these pages:
 
 > **FORMAT:** `2020-APPSDEV-JS-FIRST_NAME-LAST_NAME`
 
+2. Update the application in this current folder `2-express`; **-- DO NOT PLACE IT IN ANOTHER FOLDER**
+
 2. Complete the form in the classroom.
