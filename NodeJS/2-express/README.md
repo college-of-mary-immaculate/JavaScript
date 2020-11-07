@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Using this example code, create a simple website containing the following information:
+Using this example code, create a simple website consists of these pages:
 
 1. Home Page
     1. Profile Picture
