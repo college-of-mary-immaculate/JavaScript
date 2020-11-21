@@ -26,12 +26,11 @@ router.get("/get-products", (req, res) => {
 //    - price -- Price
 router.put("/add-product", (req, res) => {
   const { name, qty, price } = req.body
+  const products = getProducts()
 
   if (!name || !qty || !price) res.send({"error": "Please specify name, qty, and price."})
 
   if (products[name]) res.send({"error": "Product already exists!"})
-
-  const products = getProducts()
 
   products[name] = {
     qty,
